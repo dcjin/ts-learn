@@ -2,15 +2,20 @@
 /**
  * 简单的functions type
  */
-var getSomeoneName = function (someone) {
-    return someone.name || '';
+/**
+ * 函数表达式
+ * @param something
+ * @param someone
+ */
+var giveSomethingToSomeone = function (something, someone) {
+    console.log("hey " + someone + ", " + something + "\u7ED9\u4F60");
 };
-var hongYang = {
-    name: 'cxk',
-    age: 18
-};
-console.log(getSomeoneName(hongYang));
-/*** 函数声明 ***/
+giveSomethingToSomeone('蔡徐坤的篮球', '洪杨');
+/**
+ * 函数声明
+ * @param something
+ * @param someone
+ */
 function saySomethingToSomeone(something, someone) {
     console.log("hey " + someone + ", " + something);
 }

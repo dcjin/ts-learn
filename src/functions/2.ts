@@ -5,8 +5,8 @@
  * - 参数类型声明
  * - 函数返回值
  *
- * 完整的function type，需要两处，即参数声明和返回值
- * 关于参数声明可以声明一个名字，已于理解
+ * 我们还可以以参数列表的形式列出所有的参数和返回值
+ * 并且给他们取个好听能理解的名字（不会检查是否匹配，只检查类型）
  */
 
 const myAddFn: (x: number, y: number) => number = (x: number, y: number): number => {
