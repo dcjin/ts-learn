@@ -20,8 +20,11 @@
   "homepage": "https://github.com/dcjin/ts-learn#readme",
   "dependencies": {},
   "devDependencies": {
+    "@types/underscore": "^1.8.13",
+    "@types/node": "^11.11.6",
     "tslint": "^5.14.0",
     "tslint-config-airbnb": "^5.11.1",
-    "typescript": "^3.3.4000"
+    "typescript": "^3.3.4000",
+    "underscore": "^1.9.1"
   }
 }

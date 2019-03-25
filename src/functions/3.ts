@@ -22,7 +22,7 @@ buildName('hong', 'yang');
  * @param firstName
  * @param lastName
  */
-function buildName2(firstName: string, lastName: string = 'yang') {
+function buildName2(firstName: string, lastName: string = 'yang'): void {
     console.log(`${firstName} ${lastName}`);
 }
 
@@ -37,7 +37,7 @@ buildName2('hong', 'yang');
  * @param firstName
  * @param lastName
  */
-function buildName3(firstName: string, lastName?: string) {
+function buildName3(firstName: string, lastName?: string): void {
     console.log(`${firstName} ${lastName}`);
 }
 
