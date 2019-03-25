@@ -1,0 +1,27 @@
+{
+  "name": "ts-learn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc",
+    "watch": "npx tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dcjin/ts-learn.git"
+  },
+  "author": "ws",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dcjin/ts-learn/issues"
+  },
+  "homepage": "https://github.com/dcjin/ts-learn#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "tslint": "^5.14.0",
+    "tslint-config-airbnb": "^5.11.1",
+    "typescript": "^3.3.4000"
+  }
+}
