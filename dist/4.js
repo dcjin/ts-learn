@@ -1,8 +1,6 @@
 "use strict";
-/**
- * 剩余参数
- *
- */
+Object.defineProperty(exports, "__esModule", { value: true });
+var _ = require('underscore'); // need @types/node
 function addAll(x) {
     var rest = [];
     for (var _i = 1; _i < arguments.length; _i++) {
@@ -22,7 +20,7 @@ var sayAll = function (first, second) {
     }
     var all = [first, second].concat(rest);
     var ret = '';
-    all.forEach(function (str) {
+    _.each(all, function (str) {
         ret += str;
     });
     console.log(ret);

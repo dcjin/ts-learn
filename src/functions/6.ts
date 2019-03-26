@@ -1,7 +1,8 @@
 /**
  * 重载
  */
-const _ = require('underscore');
+import _ from 'underscore';
+// tslint import-name off, should be import underscore from 'underscore'
 
 const suits = ['hearts', 'spades', 'clubs', 'diamonds'];
 
@@ -30,6 +31,12 @@ console.log(magic(3));
 /******** 重载 ********/
 
 /**
+ * 重载其实和正常js没啥区别，
+ *
+ * 用来确定它的参数类型种类和返回值也行，但你必须按实际js再写一份实际运行的代码
+ *
+ * 另外IDE会帮助你，check你的输入类型
+ *
  * 从上往下查找匹配的，所以需要把最精确的、最期望的放在第一位
  * @param index
  */

@@ -2,6 +2,9 @@
  * 剩余参数
  *
  */
+import { UnderscoreStatic } from 'underscore';
+
+const _: UnderscoreStatic = require('underscore'); // need @types/node
 
 function addAll(x: number, ...rest: number[]): void { // Array<number>  tslint
     let ret = x;
@@ -24,10 +27,10 @@ const sayAll: (
     second: string,
     ...rest: string[]
 ) => {
-    const all = [first, second].concat(rest);
-    let ret = '';
+    const all: string[] = [first, second].concat(rest);
+    let ret: string = '';
 
-    all.forEach((str) => {
+    _.each(all, (str: string): void => {
         ret += str;
     });
 
