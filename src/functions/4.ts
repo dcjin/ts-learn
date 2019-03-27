@@ -37,4 +37,4 @@ const sayAll: (
     console.log(ret);
 };
 
-sayAll('洪杨', '你', '打球', '很像蔡徐坤');
+sayAll('小明', '你', '打游戏', '真的菜');

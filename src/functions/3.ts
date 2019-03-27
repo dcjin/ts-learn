@@ -13,9 +13,9 @@ function buildName(firstName: string, lastName: string): void {
     console.log(`${firstName} ${lastName}`);
 }
 
-// buildName('hong'); // error, miss
-// buildName('hong', 'yang', 'cxk'); // error, too many
-buildName('hong', 'yang');
+// buildName('小明'); // error, miss
+// buildName('小', '明', '你真菜'); // error, too many
+buildName('小', '明');
 
 /**
  * 可续参数类型1，默认型
@@ -26,11 +26,11 @@ function buildName2(firstName: string, lastName: string = 'yang'): void {
     console.log(`${firstName} ${lastName}`);
 }
 
-buildName2('hong');
-buildName2('hong', undefined);
-// buildName2('hong', null); // error, 惰性求职只对undefined有效
-// buildName('hong', 'yang', 'cxk'); // error, too many
-buildName2('hong', 'yang');
+buildName2('小');
+buildName2('小', undefined);
+// buildName2('小', null); // error, 惰性求职只对undefined有效
+// buildName('小', '明', '你真菜'); // error, too many
+buildName2('小', '明');
 
 /**
  * 可选类型3，默认型2
@@ -41,4 +41,4 @@ function buildName3(firstName: string, lastName?: string): void {
     console.log(`${firstName} ${lastName}`);
 }
 
-buildName3('hong');
+buildName3('小');

@@ -10,7 +10,7 @@
 var giveSomethingToSomeone = function (something, someone) {
     console.log("hey " + someone + ", " + something + "\u7ED9\u4F60");
 };
-giveSomethingToSomeone('蔡徐坤的篮球', '洪杨');
+giveSomethingToSomeone('一个篮球', '小明');
 /**
  * 函数声明
  * @param something
@@ -19,5 +19,5 @@ giveSomethingToSomeone('蔡徐坤的篮球', '洪杨');
 function saySomethingToSomeone(something, someone) {
     console.log("hey " + someone + ", " + something);
 }
-saySomethingToSomeone('你打球就像蔡徐坤', '洪杨');
+saySomethingToSomeone('你打游戏真菜', '小明');
 //# sourceMappingURL=1.js.map

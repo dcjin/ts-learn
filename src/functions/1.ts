@@ -11,7 +11,7 @@ const giveSomethingToSomeone = (something: string, someone: string): void => {
     console.log(`hey ${someone}, ${something}给你`);
 };
 
-giveSomethingToSomeone('蔡徐坤的篮球', '洪杨');
+giveSomethingToSomeone('一个篮球', '小明');
 
 /**
  * 函数声明
@@ -25,4 +25,4 @@ function saySomethingToSomeone(
     console.log(`hey ${someone}, ${something}`);
 }
 
-saySomethingToSomeone('你打球就像蔡徐坤', '洪杨');
+saySomethingToSomeone('你打游戏真菜', '小明');
