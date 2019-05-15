@@ -18,7 +18,9 @@
     "url": "https://github.com/dcjin/ts-learn/issues"
   },
   "homepage": "https://github.com/dcjin/ts-learn#readme",
-  "dependencies": {},
+  "dependencies": {
+    "@types/lodash": "^4.14.126"
+  },
   "devDependencies": {
     "@types/underscore": "^1.8.13",
     "@types/node": "^11.11.6",
