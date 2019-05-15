@@ -122,3 +122,31 @@ export function myFooPlus() {
 ## namespace & module
 
 `使用module`
+
+## 3 Generic(本章节属于关公面前耍大刀)
+
+### 先来一段wiki
+
+[泛型](https://zh.wikipedia.org/wiki/%E6%B3%9B%E5%9E%8B)
+
+    > 泛型程序设计（generic programming）是程序设计语言的一种风格或范式。泛型允许程序员在强类型程序设计语言中编写代码时使用一些以后才指定的类型，在实例化时作为参数指明这些类型。
+    > 各种程序设计语言和其编译器、运行环境对泛型的支持均不一样。Ada、Delphi、Eiffel、Java、C#、F#、Swift 和 Visual Basic .NET 称之为泛型（generics）；
+    > ML、Scala 和 Haskell 称之为参数多态（parametric polymorphism）；
+    > C++ 和 D称之为模板。
+    > 具有广泛影响的1994年版的《Design Patterns》一书称之为参数化类型（parameterized type）。
+    
+    
+    
+    
+    
+    
+    
+### 总结
+
+- 本质是类型参数化
+- 编译阶段检查类型转换可能会引起的问题
+- 加强类型安全，减少类型转换次数
+- 通用方法，一个方法适应多种对象
+
+
+[bihu](https://zhuanlan.zhihu.com/p/35187125)
