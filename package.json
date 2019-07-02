@@ -19,7 +19,8 @@
   },
   "homepage": "https://github.com/dcjin/ts-learn#readme",
   "dependencies": {
-    "@types/lodash": "^4.14.126"
+    "@types/lodash": "^4.14.126",
+    "@types/redux": "^3.6.0"
   },
   "devDependencies": {
     "@types/underscore": "^1.8.13",
