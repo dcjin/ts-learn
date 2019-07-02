@@ -48,3 +48,14 @@
 
 
 ## JavaScript文件类型检查
+
+就是可以使用ts对.js文件，用法
+
+- --checkJs 来指定需要检查的js文件
+- // @ts-nocheck 来忽略检查
+- // @ts-check 来指定检查
+- // @ts-ignore 指定忽略行
+- 使用tsconfig.json
+    - js检查将遵照严格模式
+    - noImplicitAny
+    - strictNullChecks
