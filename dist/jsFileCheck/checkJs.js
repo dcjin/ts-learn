@@ -6,7 +6,7 @@ var CheckJS = /** @class */ (function () {
         this.stringA = '';
     }
     CheckJS.prototype.test = function () {
-        this.numberA = '3';
+        this.numberA = '3'; // @ts-ignore
         this.stringA = 1;
     };
     return CheckJS;
